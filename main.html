@@ -4,35 +4,107 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BDD | Fully Serviced Offices | Co-working Spaces- Beirut, Lebanon</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="icon" href="./images/logo-light.png" type="image/png">
+
 
 </head>
 <body>
     <header class="site-header">
+        
             <div class="logo">
-            <img src="./images/logo-light.png" class="header-logo">
+            <img src="./images/logo-light.png">
             </div>
+            <div class="burger-icon" onclick="toggleNav()">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <nav>
             <div class="nav-content">   
-                    <div class="flex">
-                        <p>Discover BDD</p>
+                    <div class="flex padding-nav">
+                        <a href="#" class="nav-item">Discover BDD</a>
                         <img src="./images/vector.svg">
                     </div>
 
-                    <div class="flex">
-                        <p>Our Products & Services</p>
+                    <div class="flex padding-nav">
+                        <a href="#" class="nav-item">Discover BDD</a>
                         <img src="./images/vector.svg">
                     </div>
 
-                    <div class="flex">
-                        <p>Discover BDD</p>
-                        <img src="./images/vector.svg">
+                    <div class="flex padding-nav">
+                        <a href="#" class="nav-item">BDD Academy</a>
                     </div>
-
-                    <div class="flex">
-                        <p class="flex">Discover BDD</p>
-                        <img src="./images/vector.svg" class="flex">
+                    <div class="flex padding-nav">
+                        <a href="#" class="nav-item">Blog</a>
+                    </div>                    
+                    <div class="flex padding-nav">
+                        <a href="#" class="nav-item">Career Portal</a>
                     </div>
-        </div>
+                    <div class="flex padding-nav">
+                        <a href="#" class="nav-item join">Join Us</a>
+                    </div>
+            </div>
+        </nav>
     </header>
+
+    <div class="hero-slider">
+        <div class="slide">
+        <img src="./images/slide1.jpg">
+        </div>
+        <div class="slide">
+            <img src="./images/slide2.jpg">
+        </div>
+        <div class="slide">
+            <img src="./images/slide3.jpg">
+        </div>
+        <div class="slide">
+            <img src="./images/slide4.jpg">
+        </div>
+
+    </div>
+    <div>
+        <img src="./images/slide1.jpg">
+    </div>
+    <h1>Join Our Community</h1> 
+    <section class="community flex">
+
+        <section class="community-container space-between ">
+            <div class="community-item">
+                <img src="./images/join-bdd-1.png">
+            </div>
+            <div class="community-item flex-coloumn">
+                <h2>Private Offices</h2>
+                <ul class="flex-coloumn">
+                    <li>Ready to move in offices for startups</li>
+                    <li>Customizable offices for medium to large companies</li>
+                    <li>Investment opportunities in premium commercial real estate</li>
+                </ul>
+            </div>
+            <div class="community-item flex-coloumn">
+                <h2>MEMBERSHIP PLANS TO OUR HOT DESKS</h2>
+                <ul>
+                    <li>Ready to move in offices for startups</li>
+                    <li>Customizable offices for medium to large companies</li>
+                    <li>Investment opportunities in premium commercial real estate</li>
+                </ul>
+            </div>
+            <div class="community-item flex-coloumn">
+                <h2>MEETING & EVENT SPACES</h2>
+                <ul>
+                    <li>Ready to move in offices for startups</li>
+                    <li>Customizable offices for medium to large companies</li>
+                    <li>Investment opportunities in premium commercial real estate</li>
+                </ul>
+            </div>
+        </section>
+
+
+    </section>
     
+
+
+    <script src="./scripts/script.js"></script>
+
 </body>
 </html>

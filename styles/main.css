@@ -3,30 +3,15 @@
     margin: 0;
 }
 
-.header{
-    display: flex;
-    width: 100%;
-}
-.header-logo{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 94px; /* Set the width of your image */
-    height: 127px; /* Maintain the aspect ratio */
-    margin: 10px; /* Add margin if needed */
-}
-
 .flex{
     display: flex;
     width: 100%;
 }
-.header ul li{
-    list-style: none;
-}
+
 
 .site-header{
-    background-color: rgba(0, 0, 0, 0.5); /* Set the background color with transparency */
-    padding: 10px; /* Adjust padding as needed */
+    background-color: rgba(0, 0, 0, 0); 
+    padding: 10px; 
     position: fixed;
     top: 0;
     width: 100%;
@@ -34,16 +19,99 @@
     align-items: center;
     justify-content: space-between;
 }
-.logo{
-    display: block;
-    
+.flex-coloumn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
 }
+
 .logo img{
-        width: 50px; /* Set the width of your logo */
-        height: auto; /* Maintain the aspect ratio */
-        display: block; /* Remove any default spacing around the image */
+        width: 94px; 
+        height: 127px; 
+        display: block; 
 }
 .nav-content{
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding: 5px    ;
+}
+.nav-content img{
+    height: 8.5px;
+    width: 8.5px;
+}
+.padding-nav{
+    display: flex;
+    align-items: center;
+padding: 10px;
+}
+
+.nav-item{
+    color:white;
+    text-decoration:none;
+}
+.hero-slider{
+    position: relative;
+    overflow:hidden;
+    width: 100%;
+    max-height: 100vh; /* Set the maximum height of your slider */
+}
+
+.slide {
+    position: absolute;
+    width: 100%;
+}
+.join{
+    size: auto;
+    border-top-right-radius: 30%;
+    border-bottom-right-radius: 30%;
+    border-top-left-radius: 30%;
+    border-bottom-left-radius: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 100px;
+    background-color: blue;
+
+}
+.space-between{
+    display: flex;
+    justify-content: space-between;
+}
+
+.burger-icon {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+.community{
+    width: 100%;
+}
+h1{
+    color: black;
+    font-weight: bold;
+    text-align: center;
+    width: 100%;
+}
+.community-item{
+    background-image: url("../images/bg-icon.png");
+    padding: 30px;
+    height: 100%;
+    width: 215px;
+}
+.community img{
+    max-width: 420px;
+    max-height: 341px;
+}
+@media (max-width: 920px) {
+    .burger-icon {
+        display: flex; /* Show the burger icon */
+        color: black;
+    }
+
+    nav {
+        display: none; /* Hide the navigation links */
+    }
 }
