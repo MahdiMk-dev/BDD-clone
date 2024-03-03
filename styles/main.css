@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+}
+.header-logo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94px; /* Set the width of your image */
+    height: 127px; /* Maintain the aspect ratio */
+    margin: 10px; /* Add margin if needed */
+}
+
+.flex{
+    display: flex;
+    width: 100%;
+}
+.header ul li{
+    list-style: none;
+}
+
+.site-header{
+    background-color: rgba(0, 0, 0, 0.5); /* Set the background color with transparency */
+    padding: 10px; /* Adjust padding as needed */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    display: block;
+    
+}
+.logo img{
+        width: 50px; /* Set the width of your logo */
+        height: auto; /* Maintain the aspect ratio */
+        display: block; /* Remove any default spacing around the image */
+}
+.nav-content{
+    display: flex;
+    justify-content: space-between;
+}
